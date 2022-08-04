@@ -1,9 +1,7 @@
 # MovieApp
+ App developed as a part of Final Project for Android 2.
 
-// Preparation ------- dimens - color - string
-// Inside your res/values create a resource layout called dimen
-// decide on all the colors font sizes that you think you will need inside these resource files
-// The reason is that this will make your project more dynamic
+Movie App is an app where the users can get a list of the most popular, latest movies and Popular TV shows. Users can be directed to the detailed view of each movie when selected. User can save their favorite movies by clicking on a heart Icon and saving their favorite movie into DB. Users also can go to the Search Tab and search for TV or Movie shows.
 
 Step 1: Choose Your Api
 	// Example : "https://api.themoviedb.org/3/";
@@ -139,6 +137,11 @@ Step 9: Adding information to DB
 Step 10: Proceed to your Detail Activity and attach a button that can read and write from DB.
 
 Step 11: Use the same functions for as many Activity needed based on the API
+
+// Preparation ------- dimens - color - string
+// Inside your res/values create a resource layout called dimen
+// decide on all the colors font sizes that you think you will need inside these resource files
+// The reason is that this will make your project more dynamic
 
 ![image](https://user-images.githubusercontent.com/46323727/182936460-ddef1e82-0052-4bce-82ee-b288d453c7f3.png)
 
