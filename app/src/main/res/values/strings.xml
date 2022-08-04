@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="movie_images_description">movie Images description</string>
+    <string name="name">Name</string>
+    <string name="rating">Rating:</string>
+    <string name="birthdate">Birthdate::</string>
+    <string name="place_of_birth">Place Of Birth:</string>
+    <string name="also_known_by">Also Known By:</string>
+    <string name="biography">Biography:</string>
+    <string name="title">Title</string>
+    <string name="genre">Genre</string>
+    <string name="language">Language</string>
+    <string name="cast">Cast:</string>
+    <string name="description">Description</string>
+    <string name="release_date">Release Date:</string>
+    <string name="favorite_movies">Favorite Movies</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="popular_tv">Popular TV</string>
+    <string name="latest_movies">Latest Movies</string>
+    <string name="search_for_a_movie_here">Search for a movie here</string>
+</resources>

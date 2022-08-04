@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="50dp"
+    android:id="@+id/cellRootLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--    android:background="@drawable/border_corner"-->
+
+    <ImageView
+        android:id="@+id/movieImageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat= "@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/nameTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Title"
+                android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ratingTextViewId"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content"
+                android:text="Phone Number " />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/phoneImageViewId"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/icon_call"-->
+<!--                android:layout_marginRight="8dp"-->
+<!--                android:contentDescription="TODO" />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/smsImageViewId"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/icon_sms"-->
+<!--                android:layout_marginRight="8dp"-->
+<!--                />-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
